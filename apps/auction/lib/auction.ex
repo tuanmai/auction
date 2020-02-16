@@ -79,4 +79,8 @@ defmodule Auction do
       limit: 10
     @repo.all(query)
   end
+
+  def hello do
+    :world
+  end
 end
