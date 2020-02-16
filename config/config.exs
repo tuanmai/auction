@@ -9,8 +9,6 @@
 # move said applications out of the umbrella.
 import Config
 
-import_config "../apps/auction/config/config.exs"
-
 config :auction_web,
   generators: [context_app: false]
 
